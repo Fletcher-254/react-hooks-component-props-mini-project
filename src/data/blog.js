@@ -1,29 +1,27 @@
-import logo from "../assets/logo";
-
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "My Blog",
+  image: "https://via.placeholder.com/215",
+  about: "This is my blog where I post about smart tech, coding, and ideas.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "Learning React",
+      date: "July 30, 2025",
+      preview: "React makes it painless to create interactive UIs...",
+      minutes: 8,
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Advanced Props",
+      preview: "Props help pass data between components...",
+      minutes: 36,
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "JSX in Depth",
+      date: "August 1, 2025",
+      preview: "JSX lets you write HTML in JavaScript...",
+      minutes: 15,
     },
   ],
 };
